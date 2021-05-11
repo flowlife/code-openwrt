@@ -96,15 +96,6 @@ jobs:
         find dl -size -1024c -exec ls -l {} \;
         find dl -size -1024c -exec rm -f {} \;
         
-    - name: Run Custom Firmware-Diy Scripts
-      run: |
-        chmod +x $DIY_SCRIPT
-        chmod +x $FUNCTION_SCRIPT
-        cd openwrt
-        source $GITHUB_WORKSPACE/$DIY_SCRIPT
-        source $GITHUB_WORKSPACE/$FUNCTION_SCRIPT && Firmware-Diy_Base
-        Firmware-Diy
-        
     - name: Compile the firmware
       id: compile
       run: |
