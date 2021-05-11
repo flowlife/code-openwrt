@@ -13,8 +13,7 @@
 # Uncomment a feed source
 git clone https://github.com/flowlife/openwrt-packages.git package/openwrt-packages
 git clone https://github.com/kenzok8/small.git package/small
-cd lede/package/lean  
-rm -rf luci-theme-argon  
+rm -rf /openwrt/package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # Add a feed source
