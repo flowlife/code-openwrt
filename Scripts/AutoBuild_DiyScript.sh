@@ -4,8 +4,8 @@ Diy_Core() {
 	Short_Firmware_Date=true
 	Default_IP_Address=192.168.1.1
 
-	INCLUDE_AutoUpdate=true
-	INCLUDE_AutoBuild_Tools=true
+	INCLUDE_AutoUpdate=false
+	INCLUDE_AutoBuild_Tools=false
 	INCLUDE_DRM_I915=true
 	INCLUDE_Theme_Argon=true
 	INCLUDE_Obsolete_PKG_Compatible=false
