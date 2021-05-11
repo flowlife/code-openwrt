@@ -1,13 +1,12 @@
-#!/bin/bash
-# https://github.com/Hyy2001X/AutoBuild-Actions
-# AutoBuild Module by Hyy2001
-# AutoBuild DiyScript
-
 Diy_Core() {
-	Author=
+	Author=Hyy2001
 	Default_Device=x86_64
 	Short_Firmware_Date=true
 	Default_IP_Address=192.168.1.1
 
+	INCLUDE_AutoUpdate=false
+	INCLUDE_AutoBuild_Tools=false
+	INCLUDE_DRM_I915=false
+	INCLUDE_Theme_Argon=false
+	INCLUDE_Obsolete_PKG_Compatible=false
 }
-
