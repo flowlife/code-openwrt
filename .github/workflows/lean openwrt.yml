@@ -50,7 +50,7 @@ env:
 
   DIY_P1_SH: diy-part1-lean.sh
 
-  DIY_P2_SH: diy-part2-lienol.sh
+  DIY_P2_SH: diy-part2-lean.sh
 
   UPLOAD_BIN_DIR: false
 
