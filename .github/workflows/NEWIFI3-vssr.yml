@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: NEWIFI-3 VSSR
+name: NEWIFI3-VSSR
 
 on:
   repository_dispatch:
