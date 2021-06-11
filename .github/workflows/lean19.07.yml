@@ -46,7 +46,7 @@ env:
 
   FEEDS_CONF: feeds.conf.default
 
-  CONFIG_FILE: .config
+  CONFIG_FILE: d2-lean19.07.config
 
   DIY_P1_SH: diy-part1-lean1907.sh
 
