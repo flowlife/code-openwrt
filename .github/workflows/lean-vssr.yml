@@ -98,7 +98,7 @@ jobs:
         find dl -size -1024c -exec ls -l {} \;
         find dl -size -1024c -exec rm -f {} \;
         
-    - name: fix ttyd auto login
+    - name: Fix ttyd auto login
       id: ttyd
       run: |
         cd openwrt
