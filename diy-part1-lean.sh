@@ -14,6 +14,7 @@
 git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 git clone https://github.com/kenzok8/small.git package/small
 git clone https://github.com/flowlife/luci-app-onliner.git package/luci-app-onliner
+git clone https://github.com/flowlife/DIY-openwrt.git package/DIY-openwrt
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
